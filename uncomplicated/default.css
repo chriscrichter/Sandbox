@@ -144,7 +144,7 @@ hr {
 /* Post */
 
 .post {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 /* 
 .post .date {
@@ -209,7 +209,8 @@ hr {
 
 .post .entry {
 	margin: 0;
-	padding: 0 0 20px 100px;
+	font-size: 14px;
+	padding: 0 0 10px 100px;
 }
 
 /* Sidebar */

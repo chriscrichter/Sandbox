@@ -8,12 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Food and Recipe Tracker</title>
-    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+     <!--  <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <!-- Bulma Version 0.8.x-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="../css/landing.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="../css/landing.css"> -->
   <style>
 
     body {
@@ -21,7 +22,7 @@
     }
     
     .custom-bg{
-		background-color:yellow;
+		background-color: lightgrey;
 	}
 
     h1 {
@@ -35,7 +36,7 @@
 
 </head>
 
-<body>
+<body style="background-color: grey;">
     <section class="hero is-info is-fullheight">
         <div class="hero-head">
         
@@ -104,13 +105,22 @@
                                     </a>
                                 </p>
                             </div>
+                            
+                            
                         </div>
+                         <div class="newfact" id="newfact">
+
+                             
+          					</div>	
                     </div>
                 </div>
             </div>
 
     </section>
-    <script async type="text/javascript" src="../js/bulma.js"></script>
+   <!--   <script async type="text/javascript" src="../js/bulma.js"></script> -->
+     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
